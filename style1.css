@@ -1,0 +1,29 @@
+.body {
+  font-family: cursive, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Arial, sans-serif;
+}
+/* Catatn
+-linier gradient digunkan untuk mengabungkan warna    sekaligus
+-cara mngatur posisi gambar pada banner dengan : background-size: cover;,background-position: center;
+- transform: scale(1.1) : digunakan untuk memebuat animasi pada gambar prodaak jika disentuh akan membesar
+- transition: 0.3s :untuk mengatur cepat lambat pergerakan foto promo
+*/
+.banner {
+  height: 80vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/banner.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.hovered-card {
+  transition: 0.3s;
+}
+.hovered-card:hover {
+  transform: scale(1.1);
+}
+
+.icon-service {
+  width: 50px;
+  height: 50px;
+  border: solid #fff 2px;
+  border-radius: 50%;
+  color: #fff;
+}
